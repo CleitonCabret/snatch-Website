@@ -6,13 +6,13 @@ Desenvolvimento site Snatch <br/>
 </p>
 
 <p align="center">
-  Dev-Cleiton
+  Cleiton
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="link" width="100%">
+  <img alt="projeto Estudo Site" src="link" width="100%">
 </p>
 
 ## 🚀 Tecnologias
