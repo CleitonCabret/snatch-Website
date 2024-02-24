@@ -6,6 +6,6 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute("src", "assets/_logo limpa.png")
   } else {
-    img.setAttribute("src", "assets/_logo limpa 2.png")
+    img.setAttribute("src", "./assets/_logo limpa 2.png")
   }
 }
