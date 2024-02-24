@@ -51,8 +51,7 @@ body * {
 }
 
 #PagSelect {
-  padding: 0px, 0px;
-  background: var(--bg-hover);
+    background: var(--bg-hover);
   border: 1px solid var(--stroke-hover);
   text-decoration: none;
   font-weight: 700;
