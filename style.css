@@ -45,7 +45,7 @@ body * {
 /* PagSelect */
 #containerSelect {
   width: 35%;
-  max-width: 150px;
+  max-width: 350px;
   margin: 0px 0px 0px 0px;
   padding: 0 0px;
 }
