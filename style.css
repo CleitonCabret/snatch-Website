@@ -37,7 +37,7 @@ body * {
 }
 
 #container {
-  width: 20%;
+  width: 50%;
   max-width: 300px;
   margin: 10px auto 0px auto;
   padding: 0px 8px;
@@ -52,7 +52,7 @@ body * {
 }
 
 #PagSelect {
-    background: var(--bg-hover);
+  background: var(--bg-hover);
   border: 1px solid var(--stroke-hover);
   text-decoration: none;
   font-weight: 700;
@@ -123,7 +123,7 @@ body * {
 
 /*links*/
 ul {
-    list-style: none;
+  list-style: none;
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -225,4 +225,7 @@ footer {
   to {
     left: 0;
   }
+}
+#conteudoPags {
+  padding: 0px 0px 0px 120%;
 }
