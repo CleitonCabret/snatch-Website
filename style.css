@@ -28,7 +28,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 110vh;
+  height: 100vh;
 }
 
 body * {
@@ -42,7 +42,22 @@ body * {
   margin: 10px auto 0px auto;
   padding: 0 24px;
 }
+/* PagSelect */
+#containerSelect {
+  width: 50%;
+  max-width: 350px;
+  margin: 0px auto 0px 0px;
+  padding: 0 20px;
+}
 
+#PagSelect {
+  padding: 8px, 20px;
+  background: var(--bg-hover);
+  border: 1px solid var(--stroke-hover);
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.9s;
+}
 /*profile*/
 
 #profile {
