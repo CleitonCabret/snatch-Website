@@ -9,55 +9,158 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>--Snatch--</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>E-Book Snatch</title>
+    <link rel="stylesheet" href="ebook.css" />
   </head>
   <body>
-    <div id="containerSelect">
+    <div id="container">
+       <!-- logo-->
       <div id="profile">
-        <img src="assets/logo limpa 2.png" alt="texto descrição" />
+        <img
+          src="assets/logo limpa 2.png"
+          alt="Snatch Agência Social Media Estratégias de conteúdo Maringá Paraná Marketing Digital"
+        />
 
         <p>@Snatch</p>
       </div>
+       <!-- Botão tema Pag-->
       <div id="switch" onclick="toggleMode()">
         <button></button>
         <span> </span>
       </div>
-      <ul>
-        <li>
-          <a href="./faleAna.html">Fale com a Ana</a>
-        </li>
-        <li>
-          <a href="./AnalisePerfil.html">Análise de perfil</a>
-        </li>
+      <!-- Formulario-->
+    <div class="conteinerForm">
+      <p class="ebookTextosP">
+        Texto <br> impactante <br> de lançamento <br> do E-Book
+      </p>
+      <form action="" method="POST" class="form">
+        <!-- Nome  -->
+        <div class="form-group">
+          <input
+            type="nome"
+            class="form-control"
+            placeholder=""
+            id="name"
+            name="name"
+            tabindex="1"
+            required
+          />
+          <label for="name" class="form-label">Nome*</label>
+        </div>
+        <!-- Email  -->
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            placeholder=""
+            id="email"
+            name="email"
+            tabindex="2"
+            required
+          />
+          <label for="email" class="form-label">Email*</label>
+        </div>
+        <!-- Empresa  -->
+        <div class="form-group">
+          <input
+            type="empresa"
+            class="form-control"
+            placeholder=""
+            id="empresa"
+            name="empresa"
+            tabindex="2"
+            required
+          />
+          <label for="empresa" class="form-label">Empresa*</label>
+        </div>
+        <!-- Cargo  -->
+        <div class="form-group">
+          <input
+            type="cargo"
+            class="form-control"
+            placeholder=""
+            id="cargo"
+            name="cargo"
+            tabindex="2"
+            required
+          />
+          <label for="cargo" class="form-label">Cargo*</label>
+        </div>
+        <!-- Cidade  -->        
+        <div class="form-group">
+          <input
+            type="cidade"
+            class="form-control"
+            placeholder=""
+            id="cidade"
+            name="cidade"
+            tabindex="2"
+            required
+          />
+          <label for="cidade" class="form-label">Cidade*</label>
+        </div>
+        <!-- Estado  -->  
+        <div class="form-group">
+          <input
+            type="estado"
+            class="form-control"
+            placeholder=" "
+            id="estado"
+            name="estado"
+            tabindex="2"
+            required
+          />
+          <label for="estado" class="form-label">Estado*</label>
+        </div>
+         <!-- Telefone-->
+        <div class="form-group">
+          <input
+            type="telefone"
+            class="form-control"
+            placeholder=""
+            id="telefone"
+            name="telefone"
+            tabindex="2"
+            required
+          />
+          <label for="telefone" class="form-label">Telefone*</label>
+        </div>        
+        <!-- Mensagem-->
+       <div  class="form-group" ">
+      <label for="mensagem" class="form-mensagem">Mande sua mensagem!</label>
+      <br>
+        <textarea Id ="my-Text" placeholder="Mande sua mensagem" >     </textarea>
+        </div>
+        <button type="submit" class="download-btn"> Baixar </button>
+      </form> 
+ <a href="index.html" class="voltar">Voltar</a>
+    </div>
+    <!-- Soical-Links -->   
 
-        <li>
-          <a href="./serviços.html">Serviços</a>
-        </li>
-        <li>
-          <a href="./quemSomos.html">Quem somos</a>
-        </li>
-        <li>
-          <a id="PagSelect" href="./index.html">Voltar</a>
-        </li>
-      </ul>
-    </div>
-    <div id="conteudoPags"></div>
-    <div id="social-links">
-      <a href="#" target="_blank">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <a href="#" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-      <a href="#" target="_blank">
-        <ion-icon name="logo-youtube"></ion-icon>
-      </a>
-      <a href="#" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-    </div>
-    <footer>Desenvolvido por <a href="link site">Snatch</a></footer>
+      <div id="social-links">
+        <a href="https://github.com/CleitonCabret" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a
+          href="https://www.instagram.com/snatch_socialmedia?igsh=MTExaWpyZ3VocDJteA=="
+          target="_blank"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    <!-- Footer -->      
+
+      <footer>
+        Desenvolvido por
+        <a href="https://cleitoncabret.github.io/snatch-Website">Snatch</a>
+      </footer>
+   
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
     <script src="./script.js"></script>
