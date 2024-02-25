@@ -1,6 +1,6 @@
 :root {
   --text-color: rgba(161, 138, 241, 1);
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(./assets/bg-mobile\ 2.jpg);
   --stroke-cor: rgba(101, 59, 246, 0.5);
   --bg-cor: rgba(52, 33, 115, 0.5);
   --bg-corNoAlpha: rgba(52, 33, 115, 1);
@@ -29,8 +29,7 @@ body {
   margin: 0;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  height: 150vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -40,13 +39,15 @@ body * {
 
 #container {
   width: 360px;
-  margin: auto;
-  padding: 0px 0px;
+  margin: 1px;
+  padding: 0px 10px;
 }
 
 #profile {
   text-align: center;
-  padding: 24px;
+  transform: translateY(-380px);
+  padding: 0;
+  margin: 0;
 }
 
 #profile img {
@@ -62,6 +63,7 @@ body * {
 }
 /*switch*/
 #switch {
+  transform: translateY(-350px);
   position: relative;
   width: 64px;
   margin: 4px auto 2em;
@@ -104,12 +106,13 @@ body * {
 /* Texto destaque Titulo*/
 
 .ebookTextosP {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 900;
   margin: 0 0 2em 0;
   padding: 0;
 }
 .conteinerForm {
+  transform: translateY(-280px);
   max-width: 450px;
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 13px var(--bg-cor);
@@ -167,7 +170,7 @@ body * {
 
 #my-Text {
   width: 100%;
-  height: 100px;
+  height: 150px;
   outline: none;
   resize: none;
   background-color: var(--bg-cor);
@@ -207,7 +210,7 @@ body * {
   align-items: center;
   justify-content: center;
   margin: 20px 0 0 0;
-  padding: 5px;  
+  padding: 5px;
   background: var(--bg-cor);
   border: 1px solid var(--stroke-cor);
   border-radius: 5px;
