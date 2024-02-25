@@ -45,7 +45,7 @@ body * {
 
 #profile {
   text-align: center;
-  transform: translateY(-380px);
+  transform: translateY(-40px);
   padding: 0;
   margin: 0;
 }
@@ -63,7 +63,7 @@ body * {
 }
 /*switch*/
 #switch {
-  transform: translateY(-350px);
+  transform: translateY(-50px);
   position: relative;
   width: 64px;
   margin: 4px auto 2em;
@@ -112,7 +112,7 @@ body * {
   padding: 0;
 }
 .conteinerForm {
-  transform: translateY(-280px);
+  transform: translateY(-20px);
   max-width: 450px;
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 13px var(--bg-cor);
