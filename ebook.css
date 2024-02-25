@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --text-color: rgba(161, 138, 241, 1);
   --bg-url: url(./assets/bg-mobile\ 2.jpg);
@@ -25,12 +31,10 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   display: flex;
-  padding: 0;
-  margin: 0;
   justify-content: center;
   align-items: center;
-  height: 150vh;
 }
+
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -39,7 +43,7 @@ body * {
 
 #container {
   width: 360px;
-  margin: 1px;
+  margin: 60px;
   padding: 0px 10px;
 }
 
