@@ -117,8 +117,8 @@ body * {
   padding: 0;
 }
 .conteinerForm {
-  transform: translateY(-20px);
-  max-width: 450px;
+  /* transform: translateY(-20px);
+  max-width: 450px;*/
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 8px var(--bg-cor);
   padding: 1em 2em 1em 2em;
