@@ -30,6 +30,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -37,7 +38,7 @@ body * {
 }
 /*-------FORM EBOOK-------- */
 
-container {
+#container {
   width: 360px;
   margin: auto;
   padding: 0px 24px;
@@ -103,14 +104,13 @@ container {
 /* Texto destaque Titulo*/
 
 .ebookTextosP {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 900;
   margin: 0 0 2em 0;
   padding: 0;
 }
 .conteinerForm {
-  width: 80vw;
-  max-width: 380px;
+  max-width: 450px;
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 13px var(--bg-cor);
   padding: 1em 2em 1em 2em;
