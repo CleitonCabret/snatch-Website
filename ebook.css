@@ -6,7 +6,7 @@
 
 :root {
   --text-color: rgba(161, 138, 241, 1);
-  --bg-url: url(./assets/bg-mobile\ 2.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-cor: rgba(101, 59, 246, 0.5);
   --bg-cor: rgba(52, 33, 115, 0.5);
   --bg-corNoAlpha: rgba(52, 33, 115, 1);
