@@ -6,7 +6,7 @@
 
 :root {
   --text-color: rgba(161, 138, 241, 1);
-  --bg-url: url(./assets/bg-mobileB.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-cor: rgba(101, 59, 246, 0.5);
   --bg-cor: rgba(52, 33, 115, 0.5);
   --bg-corNoAlpha: rgba(52, 33, 115, 1);
@@ -30,9 +30,6 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
@@ -40,19 +37,16 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
-/*-------FORM EBOOK-------- */
 
 #container {
   width: 360px;
-  margin: 90px;
-  padding: 50px 10px;
+  margin: auto;
+  padding: 0px 24px;
 }
 
 #profile {
   text-align: center;
-  transform: translateY(0);
-  padding: 0;
-  margin: 0;
+  padding: 24px;
 }
 
 #profile img {
@@ -68,7 +62,7 @@ body * {
 }
 /*switch*/
 #switch {
-    position: relative;
+  position: relative;
   width: 64px;
   margin: 4px auto 2em;
 }
@@ -110,17 +104,18 @@ body * {
 /* Texto destaque Titulo*/
 
 .ebookTextosP {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
-  margin: 0 0 2em 0;
+  margin: 0 0 0.7em 0;
   padding: 0;
 }
 .conteinerForm {
   /* transform: translateY(-20px);
-  max-width: 450px;*/
+  */
+  max-width: 450px;
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 8px var(--bg-cor);
-  padding: 1em 2em 1em 2em;
+  padding: 0.7em 0.7em 0.7em 0.7em;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   background-color: var(--bg-cor);
