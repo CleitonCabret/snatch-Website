@@ -27,12 +27,8 @@
   --stroke-hover: rgba(101, 59, 246, 1);
   --switch-bg-url: url(./assets/sun.svg);
 }
-
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
@@ -40,17 +36,15 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
-/*-------FORM EBOOK-------- */
 
 #container {
   width: 360px;
-  margin: 90px;
-  padding: 50px 10px;
+  margin: 0 1em;
+  padding: 0 1em;
 }
 
 #profile {
   text-align: center;
-  transform: translateY(-0px);
   padding: 0;
   margin: 0;
 }
