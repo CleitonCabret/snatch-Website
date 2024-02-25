@@ -41,7 +41,7 @@ body * {
 #container {
   width: 360px;
   margin: auto;
-  padding: 0px 24px;
+  padding: 0px 10px;
 }
 
 #profile {
@@ -110,8 +110,6 @@ body * {
   padding: 0;
 }
 .conteinerForm {
-  /* transform: translateY(-20px);
-  */
   max-width: 450px;
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 8px var(--bg-cor);
@@ -120,6 +118,7 @@ body * {
   -webkit-backdrop-filter: blur(1px);
   background-color: var(--bg-cor);
   border-radius: 5px;
+  transform: translateY(-20px);
 }
 
 .form-group {
