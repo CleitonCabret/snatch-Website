@@ -6,7 +6,7 @@
 
 :root {
   --text-color: rgba(161, 138, 241, 1);
-  --bg-url: url(./assets/bg-desktop.jpg);
+  --bg-url: url(./assets/bg-mobileB.jpg);
   --stroke-cor: rgba(101, 59, 246, 0.5);
   --bg-cor: rgba(52, 33, 115, 0.5);
   --bg-corNoAlpha: rgba(52, 33, 115, 1);
@@ -119,7 +119,6 @@ body * {
 .conteinerForm {
   transform: translateY(-20px);
   max-width: 450px;
-  max-height: 650px;
   border: 0.7px solid var(--stroke-cor);
   box-shadow: 7px 8px 13px var(--bg-cor);
   padding: 1em 2em 1em 2em;
